@@ -22,4 +22,3 @@ test('Check lead paragraph styles', async ({ page }) => {
   expect(leadParagraphStyles['font-weight']).toBe('bold');
   expect(leadParagraphStyles['color']).toBe('rgb(0, 0, 255)');
 });
-
