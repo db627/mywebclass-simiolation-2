@@ -31,7 +31,7 @@ function createPrivacyModal () {
             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
           </div>
           <div class="modal-body">
-            <p>Please read our <a href="privacy.html" target="_blank">Privacy Policy</a> carefully before using our website.</p>
+            <p>This website uses cookies to ensure you gfet the experience on our website. To understand what we collect please read our <a href="privacy.html">Privacy Policy</a> for more information!</p>
             <p>Do you agree to our Privacy Policy?</p>
           </div>
           <div class="modal-footer">
