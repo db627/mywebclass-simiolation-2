@@ -45,6 +45,19 @@
                     <div id="google_translate_element" class="float-end"></div>
                 </div>
             </nav>
+
+            <script type="text/javascript">
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement(
+                        { pageLanguage: "en" },
+                        "google_translate_element"
+                    );
+                }
+            </script>
+        
+            <script type="text/javascript"
+                src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
         </header>
 
         <nav aria-label="Breadcrumb" class="py-3 d-none d-md-block">
@@ -59,6 +72,8 @@
                 </div>
             </div>
         </nav>
+
+        
     </header>
 
     <div class="container">
@@ -149,7 +164,7 @@
 
             </main>
         </div>
-        <footer class="mt-2 p-5 bg-secondary">
+        <footer class="mt-2 p-5 bg-secondary fixed-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
