@@ -92,12 +92,12 @@ function loadGoogleAnalytics () {
   if (consent === 'granted') {
     // Enable Google Analytics tracking if consent has been granted
     gtag('consent', 'update', {
-      analytics_storage: 'granted'
+      'analytics_storage': 'granted'
     })
   } else if (consent === 'denied') {
     // Disable Google Analytics tracking if consent has been denied
     gtag('consent', 'update', {
-      analytics_storage: 'denied'
+      'analytics_storage': 'denied'
     })
   } else {
     // Show the privacy modal if no consent has been given
