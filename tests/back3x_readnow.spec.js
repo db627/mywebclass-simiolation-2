@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('test', async ({ page }) => {
+  await page.goto('https://db627.github.io/mywebclass-simulation-2/')
   await page.getByRole('link', { name: 'Privacy Policy' }).click();
   await page.getByRole('link', { name: 'Our Story' }).click();
   await page.goto('https://db627.github.io/mywebclass-simiolation-2/privacy.html');

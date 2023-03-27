@@ -1,11 +1,13 @@
- import { test, expect } from '@playwright/test';
+// @ts-check
+import { test, expect } from '@playwright/test';
 
-test('test', async ({ page }) => {
-  await page.goto('https://db627.github.io/mywebclass-simiolation-2/index.html');
-  await page.getByRole('link', { name: 'Our Story' }).click();
-  await page.getByRole('heading', { name: 'Values' }).click();
-  await page.getByRole('heading', { name: 'Mission' }).click();
-  await page.getByRole('heading', { name: 'Our Story' }).click();
-  await page.getByRole('heading', { name: 'Origin' }).click();
-  await page.getByRole('heading', { name: 'Navigation' }).click();
+test('Should click through links in footer', async ({ page }) => {
+  await page.goto('https://db627.github.io/mywebclass-simulation-2/');
+  await page.click('footer a:has-text("Our Story")');
+  await page.click('h2:has-text("Values")');
+  await page.click('h2:has-text("Mission")');
+  await page.click('h2:has-text("Our Story")');
+  await page.click('h2:has-text("Origin")');
+  await page.click('h2:has-text("Navigation")');
+  // You can add an assertion here to check that the clicks navigated to the correct pages
 });
