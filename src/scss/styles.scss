@@ -13,7 +13,7 @@ html {
     --banner-height: 64px;
   }
 body{
-  background-color: gainsboro;
+  background-color: rgb(169, 169, 169);
 }
 body.banner-offset {
     margin-top: calc(var(--bs-gutter-y) + var(--banner-height));
