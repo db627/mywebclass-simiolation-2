@@ -68,3 +68,4 @@ Finally, use Playwright to create powerful and reliable automated tests for web 
 - GitHub Pages: https://db627.github.io/mywebclass-simulation-2/
 
 # Installation Instructions: 
+- Instructions: https://github.com/db627/mywebclass-simulation-2/blob/master/intallationInstructions.md 
